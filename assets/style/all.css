@@ -1,0 +1,84 @@
+body {
+  line-height: 1.5;
+  font-family: 'Lato', 'Roboto Mono',monospace,sans-serif; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle; }
+
+a {
+  text-decoration: none;
+  display: block; }
+
+code {
+  font-family: 'Roboto Mono',monospace,sans-serif; }
+
+.ms-6 {
+  margin-left: 50px; }
+
+.pb-6 {
+  padding-bottom: 16.5px; }
+
+.fs-7 {
+  font-size: 14px; }
+
+.fs-8 {
+  font-size: 12px; }
+
+.aside {
+  position: fixed;
+  min-width: 296px;
+  min-height: 100vh;
+  padding: 40px 32px; }
+  .aside h1 {
+    margin-bottom: 40px; }
+  .aside span {
+    display: inline-block;
+    margin-right: 16px; }
+  .aside .nav-link {
+    padding: 0 0 26px 0; }
+
+.userIcon {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 999em; }
+
+.main {
+  padding: 32px; }
+  .main header {
+    margin-left: 296px; }
+    .main header h2 {
+      margin-right: 50px; }
+  .main .panelIcon {
+    gap: 26.03px; }
+  .main .btn-secondary {
+    background-color: #fff;
+    border: none; }
+
+.dropdown-toggle::after {
+  content: "\e5cf";
+  font-family: "Material Icons";
+  border-top: none;
+  color: #198754; }
+
+.content {
+  margin-top: 44px;
+  margin-left: 296px; }
+  .content .dropdown p {
+    font-size: 12px; }
+  .content .list {
+    font-size: 12px; }
+    .content .list p {
+      margin-bottom: 0; }
+  .content .list-group-item {
+    padding: 12px; }
+  .content .list-group-item.active {
+    background-color: #F8F9FA;
+    border-color: #CED4DA; }
+  .content .listBtn {
+    padding: 0; }
+
+/*# sourceMappingURL=all.css.map */
