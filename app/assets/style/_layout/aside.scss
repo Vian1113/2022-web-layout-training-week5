@@ -1,7 +1,7 @@
 .aside {
 
     position: fixed;
-    min-width: 296px;
+    min-width: 232px;
     min-height: 100vh;
     padding: 40px 32px;
 
@@ -19,7 +19,31 @@
 
         padding: 0 0 26px 0;
 
+        &:hover {
+            color: #198754;
+
+            &::before {
+                content: "";
+                position: absolute;
+                left: 0;
+                width: 4px;
+                height: 32px;
+
+                border-left: 4px solid #198754;
+            }
+        }
     }
+
+    .active::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        width: 4px;
+        height: 32px;
+
+        border-left: 4px solid #198754;
+    }
+
 
 
 }

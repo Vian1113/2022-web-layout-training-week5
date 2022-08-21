@@ -1,0 +1,57 @@
+[aria-expanded="false"] .menu__icon--open {
+    display: inline;
+}
+
+[aria-expanded="false"] .menu__icon--close {
+    display: none;
+}
+
+[aria-expanded="true"] .menu__icon--open {
+    display: none;
+}
+
+[aria-expanded="true"] .menu__icon--close {
+    display: inline;
+}
+
+.userImg {
+    width: 141px;
+    height: 141px;
+    object-fit: cover;
+}
+
+.close {
+    cursor: pointer;
+}
+
+.verfiedDay {
+    margin-left: 259px;
+}
+
+
+
+
+
+.page-item {
+    .page-link {
+        color: #198754;
+
+        &:hover {
+            background: #198754;
+            color: #ffffff;
+        }
+    }
+
+    .currentPage {
+        color: #ffffff;
+        background: #198754;
+    }
+
+    .pages {
+       color:#000000;
+       &:hover{
+        background: #198754;
+            color: #ffffff;
+       }
+    }
+}
