@@ -17,8 +17,14 @@ code {
 .ms-6 {
   margin-left: 50px; }
 
+.mb-6 {
+  margin-bottom: 50px; }
+
 .pb-6 {
   padding-bottom: 16.5px; }
+
+.pb-7 {
+  padding-bottom: 50px; }
 
 .fs-7 {
   font-size: 14px; }
@@ -26,9 +32,12 @@ code {
 .fs-8 {
   font-size: 12px; }
 
+.gray-400 {
+  color: #CED4DA; }
+
 .aside {
   position: fixed;
-  min-width: 296px;
+  min-width: 232px;
   min-height: 100vh;
   padding: 40px 32px; }
   .aside h1 {
@@ -38,6 +47,22 @@ code {
     margin-right: 16px; }
   .aside .nav-link {
     padding: 0 0 26px 0; }
+    .aside .nav-link:hover {
+      color: #198754; }
+      .aside .nav-link:hover::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        width: 4px;
+        height: 32px;
+        border-left: 4px solid #198754; }
+  .aside .active::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 4px;
+    height: 32px;
+    border-left: 4px solid #198754; }
 
 .userIcon {
   width: 40px;
@@ -80,5 +105,45 @@ code {
     border-color: #CED4DA; }
   .content .listBtn {
     padding: 0; }
+
+[aria-expanded="false"] .menu__icon--open {
+  display: inline; }
+
+[aria-expanded="false"] .menu__icon--close {
+  display: none; }
+
+[aria-expanded="true"] .menu__icon--open {
+  display: none; }
+
+[aria-expanded="true"] .menu__icon--close {
+  display: inline; }
+
+.userImg {
+  width: 141px;
+  height: 141px;
+  -o-object-fit: cover;
+     object-fit: cover; }
+
+.close {
+  cursor: pointer; }
+
+.verfiedDay {
+  margin-left: 259px; }
+
+.page-item .page-link {
+  color: #198754; }
+  .page-item .page-link:hover {
+    background: #198754;
+    color: #ffffff; }
+
+.page-item .currentPage {
+  color: #ffffff;
+  background: #198754; }
+
+.page-item .pages {
+  color: #000000; }
+  .page-item .pages:hover {
+    background: #198754;
+    color: #ffffff; }
 
 /*# sourceMappingURL=all.css.map */

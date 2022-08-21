@@ -1,6 +1,6 @@
 .aside {
   position: fixed;
-  min-width: 296px;
+  min-width: 232px;
   min-height: 100vh;
   padding: 40px 32px; }
   .aside h1 {
@@ -10,6 +10,22 @@
     margin-right: 16px; }
   .aside .nav-link {
     padding: 0 0 26px 0; }
+    .aside .nav-link:hover {
+      color: #198754; }
+      .aside .nav-link:hover::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        width: 4px;
+        height: 32px;
+        border-left: 4px solid #198754; }
+  .aside .active::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 4px;
+    height: 32px;
+    border-left: 4px solid #198754; }
 
 .userIcon {
   width: 40px;
